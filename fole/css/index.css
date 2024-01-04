@@ -1,0 +1,57 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#container {
+    background-image: url(https://ruouthuonghieu.com/wp-content/uploads/2023/05/bg-18age.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#border {
+    background: white;
+    border-radius: 15px;
+    width: 500px;
+    min-height: 300px;
+    /* display: flex;
+    flex: nowrap; */
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 10px;
+}
+
+h1 {
+    display: block;
+    padding: 30px;
+    color: rgb(99, 99, 190);
+}
+
+button {
+    background: #333;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600px;
+}
+
+p {
+    margin: 12px 0px;
+}
+
+.error {
+    padding: 10px 0px;
+    color: #c00;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
